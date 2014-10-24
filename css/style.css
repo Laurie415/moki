@@ -2866,11 +2866,8 @@ body {
 	}
 }
 
-/*#columns:hover .pin:not(:hover) {
-	border:red
-}*/
-#columns :hover {
-border-color: red;
+#columns:hover .pin:not(:hover) {
+	opacity: 0.4;
 }
 
 .map
